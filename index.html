@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm Sorry</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container text-center mt-5">
+        <h1 class="display-4">I'm Sorry!</h1>
+        <p class="lead">Dear Brother,</p>
+        <p>I want to sincerely apologize for what happened.</p>
+        
+        <button class="btn btn-primary" id="apologizeButton">I'm Sorry</button>
+        
+        <div id="apologyContainer" style="display:none;">
+            <img src="./pic1.jpg" alt="Apology Image" class="apology-image" width="50">
+            <button class="btn btn-primary" id="callButton" style="display:none;">Call Me</button>
+        </div>
+
+        <div id="callContainer" style="display:none;">
+            <img src="./pic2.jpg" alt="Call Image" class="call-image" width="50">
+            <p class="compliment-text">I appreciate you! Let's talk it out.</p>
+        </div>
+
+        <!-- Circle Animation -->
+        <div class="animation-wrapper">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
